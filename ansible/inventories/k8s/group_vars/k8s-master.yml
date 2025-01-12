@@ -1,0 +1,6 @@
+kubernetes_cluster_config:
+  networking:
+    podSubnet: "{{ kubernetes_pod_network_cidr }}"
+  kubernetesVersion: "stable-{{ kubernetes_version }}"
+  # multinode setting
+  # controlPlaneEndpoint: 192.168.178.114:6443

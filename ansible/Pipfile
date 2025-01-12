@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+molecule = "*"
+ansible-lint = "*"
+pipfile = "*"
+molecule-plugins = {extras = ["vagrant"], version = "*"}
+zabbix-api = "*"
+
+[requires]
+python_version = "3.10"
+
+[packages]
+ansible = "*"
+ansible-core = "*"
+netaddr = "*"

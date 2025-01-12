@@ -1,0 +1,5 @@
+roles:
+  - name: reneruprecht.kubernetes
+    src: https://github.com/reneruprecht/ansible-role-kubernetes.git
+    scm: git
+    version: main
