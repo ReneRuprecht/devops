@@ -11,7 +11,7 @@ molecule-plugins = {extras = ["vagrant"], version = "*"}
 zabbix-api = "*"
 
 [requires]
-python_version = "3.10"
+python_version = "3.12"
 
 [packages]
 ansible = "*"
